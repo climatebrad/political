@@ -1,5 +1,5 @@
 {
-    "retrieved_at": "2019-11-14 14:34:07",
+    "retrieved_at": "2019-11-14 14:58:25",
     "directors": [
         {
             "name": "Andrew Abboud",
@@ -242,8 +242,8 @@
         {
             "name": "Glenn Hamer",
             "city": "Phoenix, AZ",
-            "company": "and Industry",
-            "title": "President and Chief Executive Officer Arizona Chamber of Commerce"
+            "company": "Arizona Chamber of Commerce and Industry",
+            "title": "President and Chief Executive Officer"
         },
         {
             "name": "Eric Hammes",
@@ -459,8 +459,9 @@
         },
         {
             "name": "Susan Sachatello",
-            "company": "Madison WI",
-            "title": "Senior Vice President, TruStage CUNA Mutual Group"
+            "city": "Madison WI",
+            "company": "CUNA Mutual Group",
+            "title": "Senior Vice President, TruStage"
         },
         {
             "name": "John Scheib",

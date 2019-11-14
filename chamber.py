@@ -7,16 +7,7 @@ from bs4 import BeautifulSoup
 
 
 # TODO: Improve parsing
-# This parser is not perfect. Does not correctly handle multiline companies, e.g.
-#
-# Glenn Hamer
-# President and
-# Chief Executive Officer
-# Arizona Chamber of Commerce
-# and Industry
-# Phoenix, AZ
-#
-# also does not correctly handle multiple listed affiliations, e.g.
+# This parser is not perfect. Does not correctly handle multiple listed affiliations, e.g.
 #
 # John Ruan III
 # Executive Chairman
@@ -31,7 +22,7 @@ def get_chamber_directors():
     url = 'https://www.uschamber.com/about/board-of-directors'
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
-    city_re = re.compile('(.*, ([A-Z]{2}|Canada)|Bermuda)')
+    city_re = re.compile('(.*,? ([A-Z]{2}|Canada)|Bermuda)')
     directors = list()
     for director in soup.select("table p"):
         if not director.find("strong"):
@@ -40,16 +31,21 @@ def get_chamber_directors():
             'name' : director.find("strong").text
         }
         if len(director.contents) >= 3:
-            last_line = director.contents[-1:][0]
+            last_line = director.contents[-1]
             if city_re.match(last_line):
                 director_dict['city'] = last_line
             else:
                 director.append(soup.br) # add dummy line for missing city
                 director.append(' ')
         if len(director.contents) >= 5:
-            director_dict['company'] = director.contents[-3:-2][0]
+            company = director.contents[-3]
+            if re.match('[a-z]', company): # if multiline company
+                company = director.contents[-5] + " " + company
+                director.contents.pop(-5)
+                director.contents.pop(-4)
+            director_dict['company'] = company
         if len(director.contents) >= 7:
-            title = " ".join([s for s in director.contents[2:-4] if isinstance(s, str)])
+            title = " ".join([s for s in director.contents[2:-4] if s.string])
             director_dict['title'] = title
         directors.append(director_dict)
     directors_dict = {
