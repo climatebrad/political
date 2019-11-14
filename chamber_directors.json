@@ -1,0 +1,626 @@
+{
+    "retrieved_at": "2019-11-14 14:34:07",
+    "directors": [
+        {
+            "name": "Andrew Abboud",
+            "city": "Las Vegas, NV",
+            "company": "Las Vegas Sands Corp.",
+            "title": "Senior Vice President Government Relations"
+        },
+        {
+            "name": "Robert O. Agbede",
+            "city": "Pittsburgh, PA",
+            "company": "Hatch USA",
+            "title": "Vice Chairman"
+        },
+        {
+            "name": "Harry C. Alford",
+            "city": "Washington, DC",
+            "company": "National Black Chamber of Commerce",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Mark Allen",
+            "city": "Memphis, TN",
+            "company": "FedEx",
+            "title": "Executive Vice President, General Counsel, and Secretary"
+        },
+        {
+            "name": "Lee R. Anderson, Sr.",
+            "city": "New Brighton, MN",
+            "company": "APi Group, Inc.",
+            "title": "Chairman of the Board"
+        },
+        {
+            "name": "Dennis Arriola",
+            "city": "San Diego, CA",
+            "company": "Sempra Energy",
+            "title": "Executive Vice President and Group President"
+        },
+        {
+            "name": "Richard H. Bagger",
+            "city": "Summit, NJ",
+            "company": "Celgene Corporation",
+            "title": "Executive Vice President Corporate Affairs & Market Access"
+        },
+        {
+            "name": "Arnold Baker",
+            "city": "New Orleans, LA",
+            "company": "BRM Concrete",
+            "title": "Chief Executive Officer"
+        },
+        {
+            "name": "Gene Barr",
+            "city": "Harrisburg, PA",
+            "company": "Pennsylvania Chamber of Business and Industry",
+            "title": "President and Chief Executve Officer"
+        },
+        {
+            "name": "Hector V. Barreto",
+            "city": "Irvine, CA",
+            "company": "The Latino Coaltion",
+            "title": "Chairman"
+        },
+        {
+            "name": "Kathy G. Beckett",
+            "city": "Charleston, WV",
+            "company": "Steptoe & Johnson",
+            "title": "Member"
+        },
+        {
+            "name": "John F. Biagas",
+            "city": "Newport News, VA",
+            "company": "Bay Electric Co., Inc.",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Jim Brady",
+            "city": "Chicago, IL",
+            "company": "Grant Thornton",
+            "title": "Chief Operating Officer (Retired)"
+        },
+        {
+            "name": "Kelly Brough",
+            "city": "Denver, CO",
+            "company": "Denver Metro Chamber of Commerce",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Michelle H. Browdy",
+            "city": "Armonk, NY",
+            "company": "International Business Machines",
+            "title": "Senior Vice President, Legal and Regulatory Affairs and General Counsel"
+        },
+        {
+            "name": "James Carroll",
+            "company": "Honeywell",
+            "title": "Senior Vice President, Government Relations"
+        },
+        {
+            "name": "Douglas Cifu",
+            "city": "New York, NY",
+            "company": "Virtu Financial",
+            "title": "Chief Executive Officer"
+        },
+        {
+            "name": "Chris Clark",
+            "city": "Atlanta, GA",
+            "company": "Georgia Chamber of Commerce",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Ken W. Cole",
+            "city": "Washington, DC",
+            "company": "Cactus Consulting LLC",
+            "title": "Managing Director"
+        },
+        {
+            "name": "Joseph W. Craft III",
+            "city": "Tulsa, OK",
+            "company": "Alliance Resource Partners, L.P.",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Bruce Culpepper",
+            "city": "Houston, TX",
+            "company": "Shell Oil Company",
+            "title": "President (Retired)"
+        },
+        {
+            "name": "Ralph de la Torre",
+            "city": "Dallas, TX",
+            "company": "Steward Health Care System LLC",
+            "title": "Chairman and Chief Executive Officer"
+        },
+        {
+            "name": "Mitchell Delk",
+            "city": "Washington, DC",
+            "company": "AECOM",
+            "title": "Corporate Senior Vice President, Global Government Relations and Policy"
+        },
+        {
+            "name": "Brackett Denniston III",
+            "city": "Boston, MA",
+            "company": "Goodwin Procter LLP",
+            "title": "Senior Counsel"
+        },
+        {
+            "name": "Maura W. Donahue",
+            "city": "Mandeville, LA",
+            "company": "Holding Company",
+            "title": "President DonahueFavret Contractors"
+        },
+        {
+            "name": "Thomas J. Donohue",
+            "city": "Washington, DC",
+            "company": "U.S. Chamber of Commerce",
+            "title": "Chief Executive Officer"
+        },
+        {
+            "name": "Michael L. Ducker",
+            "city": "Memphis, TN",
+            "company": "FedEx Freight"
+        },
+        {
+            "name": "Shawn Fagan",
+            "city": "Chicago, IL",
+            "company": "Citadel LLC",
+            "title": "Chief Legal Officer"
+        },
+        {
+            "name": "Terri Fariello",
+            "city": "Houston, TX",
+            "company": "United Airlines",
+            "title": "Senior Vice President, Government Affairs & Global Public Policy"
+        },
+        {
+            "name": "Robert D. Fatovic",
+            "city": "Miami, FL",
+            "company": "Ryder System, Inc.",
+            "title": "Executive Vice President Chief Legal Officer and Corporate Secretary"
+        },
+        {
+            "name": "Sean Finn",
+            "city": "Montreal, Canada",
+            "company": "Canadian National Railway",
+            "title": "Executive Vice President, Corporate Services and Chief Legal Officer"
+        },
+        {
+            "name": "Michael Flannigan",
+            "city": "St. Louis, MO",
+            "company": "Peabody Energy",
+            "title": "Senior Vice President Global Governmental Affairs"
+        },
+        {
+            "name": "Lisa Flavin",
+            "city": "St. Louis, MO",
+            "company": "Emerson Electric Company",
+            "title": "Vice President, Audit and Chief Compliance Officer"
+        },
+        {
+            "name": "Wayne A. I. Frederick, M.D., MBA, F.A.C.S.",
+            "city": "Washington, DC",
+            "company": "Howard University",
+            "title": "President"
+        },
+        {
+            "name": "Adena Friedman",
+            "city": "New York, NY",
+            "company": "Nasdaq, Inc.",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Lance M. Fritz",
+            "city": "Omaha, NE",
+            "company": "Union Pacific Corporation",
+            "title": "Chairman, President and Chief Executive Officer"
+        },
+        {
+            "name": "Robert “Bob” Funck",
+            "city": "Abbott Park, IL",
+            "company": "Abbott",
+            "title": "Senior Vice President, Finance and Controller"
+        },
+        {
+            "name": "John E. Gallina",
+            "city": "Indianapolis, IN",
+            "company": "Anthem",
+            "title": "Executive Vice President and Chief Financial Oficer"
+        },
+        {
+            "name": "H.P. Goldfield",
+            "city": "Washington, DC",
+            "company": "Strategic Resources Corporation",
+            "title": "Senior International Advisor Hogan Lovells US LLC Managing Partner"
+        },
+        {
+            "name": "Bruce Grewcock",
+            "city": "Omaha, NE",
+            "company": "Kiewit Corporation",
+            "title": "Chairman and Chief Executive Officer"
+        },
+        {
+            "name": "Glenn Hamer",
+            "city": "Phoenix, AZ",
+            "company": "and Industry",
+            "title": "President and Chief Executive Officer Arizona Chamber of Commerce"
+        },
+        {
+            "name": "Eric Hammes",
+            "city": "Minneapolis, MN",
+            "company": "3M",
+            "title": "Senior Vice President, Supply Chain"
+        },
+        {
+            "name": "John L. Hopkins",
+            "city": "Portland, OR",
+            "company": "NuScale Power LLC",
+            "title": "Chairman and Chief Executive Officer"
+        },
+        {
+            "name": "David Jacobson",
+            "city": "Chicago, IL",
+            "company": "BMO Financial Group",
+            "title": "Vice Chairman"
+        },
+        {
+            "name": "Elliot J. Jaffee",
+            "city": "Minneapolis, MN",
+            "company": "U.S. Bank",
+            "title": "Executive Vice President and Head of Commercial Banking "
+        },
+        {
+            "name": "J.J. Johnson",
+            "city": "Boston, MA",
+            "company": "Fidelity Investments",
+            "title": "Chief Communications Officer Executive Vice President for Communications, Public Affairs, and Policy"
+        },
+        {
+            "name": "Paula Johnson",
+            "city": "Houston, TX",
+            "company": "Phillips 66",
+            "title": "Executive Vice President, Legal & Government Affairs, General Counsel & Corporate Secretary"
+        },
+        {
+            "name": "Stephen Johnson",
+            "city": "Fort Worth, TX",
+            "company": "American Airlines",
+            "title": "Executive Vice President Corporate Affairs"
+        },
+        {
+            "name": "Robert Jones",
+            "city": "New York, NY",
+            "company": "Pfizer, Inc.",
+            "title": "Senior Vice President, Government Affairs"
+        },
+        {
+            "name": "Jan Jones Blackhurst",
+            "city": "Las Vegas, NV",
+            "company": "Caesars Entertainment Corporation",
+            "title": "Executive Vice President, Public Policy and Corporate Responsibility"
+        },
+        {
+            "name": "Fred Kaiser",
+            "city": "Bellingham, WA",
+            "company": "Alpha Technologies, Inc.",
+            "title": "Chairman"
+        },
+        {
+            "name": "Raymond F. Kerins, Jr.",
+            "city": "Whippany, NJ",
+            "company": "Bayer Corporation",
+            "title": "Senior Vice President, Head of Communications & Government Relations & Policy"
+        },
+        {
+            "name": "Larry Kidd",
+            "city": "Jackson, OH",
+            "company": "RSS Staffing",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Paul Klaassen",
+            "city": "Arlington, VA",
+            "company": "Sunrise Senior Living, Inc.",
+            "title": "Founder"
+        },
+        {
+            "name": "Jessie J. Knight, Jr.",
+            "city": "Charlotte, NC",
+            "company": "Knight Angels",
+            "title": "Managing Director"
+        },
+        {
+            "name": "Robert Kramer",
+            "city": "Gaithersburg, MD",
+            "company": "Emergent BioSolutions",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Laura Lane",
+            "city": "Washington, DC",
+            "company": "United Parcel Service",
+            "title": "President Global Public Affairs"
+        },
+        {
+            "name": "Greg Lebedev",
+            "city": "Arlington, VA",
+            "company": "The Robertson Foundation",
+            "title": "Senior Advisor"
+        },
+        {
+            "name": "William G. Little",
+            "city": "Chicago, IL",
+            "company": "Quam-Nichols Company, Inc.",
+            "title": "Chairman"
+        },
+        {
+            "name": "Christopher B. Lofgren, Ph.D.",
+            "city": "Green Bay, WI"
+        },
+        {
+            "name": "Tamara L. Lundgren",
+            "city": "New York, NY",
+            "company": "Schnitzer Steel Industries, Inc.",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Andrew D. Lundquist",
+            "city": "Washington, DC",
+            "company": "ConocoPhillips",
+            "title": "Senior Vice President Government Affairs"
+        },
+        {
+            "name": "Phillip May",
+            "city": "New Orleans, LA",
+            "company": "Entergy Louisiana, LLC",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Edward McCoy",
+            "city": "Richmond, VA",
+            "company": "Eaheart Industrial Service Inc.",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "James W. Mendenhall",
+            "city": "Anchorage, AK",
+            "company": "PAECO, Inc.",
+            "title": "President"
+        },
+        {
+            "name": "Sherry Menor-McNamara",
+            "city": "Honolulu, HI",
+            "company": "Chamber of Commerce Hawaii",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Rance C. Miles",
+            "city": "Dallas, TX",
+            "company": "Select Milk Producers, Inc.",
+            "title": "Chief Operating Officer and Chief Financial Officer"
+        },
+        {
+            "name": "George Nichols III",
+            "city": "Bryn Mawr, PA",
+            "company": "American College of Financial Services",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "C. Howard Nye",
+            "city": "Raleigh, NC",
+            "company": "Martin Marietta Materials",
+            "title": "Chairman, President and Chief Executive Officer"
+        },
+        {
+            "name": "Brian O’Hara",
+            "city": "Bermuda",
+            "company": "Front Street Advisors",
+            "title": "Chairman"
+        },
+        {
+            "name": "Karen M. Olson Beenken",
+            "city": "Sidney, MT",
+            "company": "Blue Rock Companies",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Mark S. Ordan",
+            "city": "Bethesda, MD"
+        },
+        {
+            "name": "Louis (Louie) Pastor",
+            "city": "Norwalk, CT",
+            "company": "Xerox Corporation",
+            "title": "Executive Vice President and General Counsel"
+        },
+        {
+            "name": "Matthew K. Rose",
+            "city": "Fort Worth, TX",
+            "company": "BNSF Railway Company",
+            "title": "Executive Chairman (Retired)"
+        },
+        {
+            "name": "Mark Rourke",
+            "city": "Green Bay, WI",
+            "company": "Schneider National, Inc.",
+            "title": "Chief Executive Officer"
+        },
+        {
+            "name": "John Ruan III",
+            "city": "Des Moines, IA",
+            "company": "Chairman and CEO, Ruan, Incorporated",
+            "title": "Executive Chairman Ruan Transportation Management Systems Chairman and CEO, BTC Financial Corporation"
+        },
+        {
+            "name": "Edward B. Rust, Jr.",
+            "city": "Bloomington, IL",
+            "company": "State Farm Insurance Companies",
+            "title": "Chairman (Retired)"
+        },
+        {
+            "name": "Susan Sachatello",
+            "company": "Madison WI",
+            "title": "Senior Vice President, TruStage CUNA Mutual Group"
+        },
+        {
+            "name": "John Scheib",
+            "city": "Norfolk, VA",
+            "company": "Norfolk Southern Corporation",
+            "title": "Executive Vice President and Chief Strategy Officer"
+        },
+        {
+            "name": "James Schenck",
+            "city": "McLean, VA",
+            "company": "PenFed Credit Union",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Tracy G. Schmidt",
+            "city": "Katy, TX",
+            "company": "Gordon Food Service"
+        },
+        {
+            "name": "Gerald L. Shaheen",
+            "city": "Scottsdale, AZ",
+            "company": "FORD Motor Company"
+        },
+        {
+            "name": "Matthew Shay",
+            "city": "Washington, DC",
+            "company": "National Retail Federation",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Eric Silagy",
+            "city": "Juno Beach, FL",
+            "company": "Florida Power & Light Company",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Dr. Rajendra Singh",
+            "city": "Indian Creek Island, FL",
+            "company": "Telcom Ventures, LLC",
+            "title": "Chairman and Chief Executive Officer"
+        },
+        {
+            "name": "Christel Slaughter, Ph.D.",
+            "city": "Baton Rouge, LA",
+            "company": "SSA Consultants",
+            "title": "Chief Executive Officer"
+        },
+        {
+            "name": "Charles R. Stamp, Jr.",
+            "city": "Moline, IL",
+            "company": "Deere & Company",
+            "title": "Vice-President, Corporate Strategy & Business Development (Retired)"
+        },
+        {
+            "name": "John Stephens",
+            "city": "Dallas, TX",
+            "company": "AT&T",
+            "title": "Senior Executive Vice President and Chief Financial Officer"
+        },
+        {
+            "name": "Frank C. Sullivan",
+            "city": "Medina, OH",
+            "company": "RPM International Inc.",
+            "title": "Chairman and Chief Executive Officer"
+        },
+        {
+            "name": "The Honorable David Thorne",
+            "city": "Boston, MA",
+            "company": "Adviser Investments, Inc.",
+            "title": "Vice Chairman"
+        },
+        {
+            "name": "Maxine Turner",
+            "city": "Salt Lake City, UT",
+            "company": "Cuisine Unlimited Catering & Special Events",
+            "title": "Founder"
+        },
+        {
+            "name": "Joseph B. Ucuzoglu",
+            "city": "Washington, DC",
+            "company": "Deloitte",
+            "title": "Chief Executive Officer"
+        },
+        {
+            "name": "Steve Van Andel",
+            "city": "Ada, MI",
+            "company": "Amway",
+            "title": "Chairman"
+        },
+        {
+            "name": "Frank L. VanderSloot",
+            "city": "Idaho Falls, ID",
+            "company": "Melaleuca, Inc.",
+            "title": "Chief Executive Officer"
+        },
+        {
+            "name": "Todd Walker",
+            "city": "Richmond, VA",
+            "company": "Altria",
+            "title": "Senior Vice President, Corporate Citizenship and Government Affairs"
+        },
+        {
+            "name": "Raymond Wagner",
+            "city": "St. Louis, MO",
+            "company": "Enterprise Holdings",
+            "title": "Senior Vice President Government and Public Affairs"
+        },
+        {
+            "name": "Mark E. Watson III",
+            "city": "San Antonio, TX",
+            "company": "Argo Group International Holdings Limited",
+            "title": "President and Chief Executive Officer"
+        },
+        {
+            "name": "Amy Wilson",
+            "city": "Midland, MI",
+            "company": "The Dow Chemical Company",
+            "title": "General Counsel and Corporate Secretary"
+        },
+        {
+            "name": "Mark Wilson",
+            "city": "Morrow, GA",
+            "company": "Chime Solutions",
+            "title": "Chief Executive Officer"
+        },
+        {
+            "name": "Thomas J. Wilson",
+            "city": "Northbrook, IL",
+            "company": "Allstate Insurance Company",
+            "title": "Chairman, Chief Executive Officer, and President"
+        },
+        {
+            "name": "Heather Wingate",
+            "city": "Atlanta, GA",
+            "company": "Delta Airlines",
+            "title": "Senior Vice President"
+        },
+        {
+            "name": "Christopher C. Womack",
+            "city": "Atlanta, GA",
+            "company": "Southern Company",
+            "title": "Executive Vice President and President, External Affairs"
+        },
+        {
+            "name": "Allen Wright",
+            "city": "Oklahoma City, OK",
+            "company": "Devon Energy",
+            "title": "Vice President, Public and Government Affairs"
+        },
+        {
+            "name": "Elanna S. Yalow, Ph.D., M.B.A.",
+            "city": "Portland, OR",
+            "company": "KinderCare Education",
+            "title": "Chief Academic Officer"
+        },
+        {
+            "name": "Michael A. Zarcone",
+            "city": "New York, NY",
+            "company": "MetLife",
+            "title": "Executive Vice President and Chief of Staff, Office of the CEO Head of Corporate Affairs"
+        }
+    ]
+}
