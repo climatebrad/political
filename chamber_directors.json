@@ -1,5 +1,5 @@
 {
-    "retrieved_at": "2019-11-14 14:58:25",
+    "retrieved_at": "2019-11-15 21:07:28",
     "directors": [
         {
             "name": "Andrew Abboud",
@@ -448,8 +448,18 @@
         {
             "name": "John Ruan III",
             "city": "Des Moines, IA",
-            "company": "Chairman and CEO, Ruan, Incorporated",
-            "title": "Executive Chairman Ruan Transportation Management Systems Chairman and CEO, BTC Financial Corporation"
+            "extra_affiliations": [
+                {
+                    "title": "Chairman and CEO",
+                    "company": "Ruan, Incorporated"
+                },
+                {
+                    "title": "Chairman and CEO",
+                    "company": "BTC Financial Corporation"
+                }
+            ],
+            "company": "Management Systems",
+            "title": "Executive Chairman Ruan Transportation"
         },
         {
             "name": "Edward B. Rust, Jr.",

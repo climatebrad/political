@@ -27,24 +27,32 @@ def get_chamber_directors():
     for director in soup.select("table p"):
         if not director.find("strong"):
             continue
-        director_dict = {
+        director_dict = { # name is the only standard-formatted element
             'name' : director.find("strong").text
         }
-        if len(director.contents) >= 3:
+        if len(director.contents) >= 3:  # parse city
             last_line = director.contents[-1]
             if city_re.match(last_line):
                 director_dict['city'] = last_line
             else:
                 director.append(soup.br) # add dummy line for missing city
                 director.append(' ')
-        if len(director.contents) >= 5:
+        if len(director.contents) >= 5: # parse company
             company = director.contents[-3]
+            extra = []
+            while re.match('^Chairman.*', company): # secondary affiliations
+                title, co = re.match('(^Chairman[^,]+), (.*)', company).group(1, 2)
+                extra.append({'title' : title, 'company' : co})
+                director.contents.pop(-3)
+                director.contents.pop(-2)
+                company = director.contents[-3]
+            if extra:
+                director_dict['extra_affiliations'] = extra
             if re.match('[a-z]', company): # if multiline company
-                company = director.contents[-5] + " " + company
-                director.contents.pop(-5)
-                director.contents.pop(-4)
+                company = director.contents.pop(-5) + " " + company
+                director.contents.pop(-4) # pop the br tag
             director_dict['company'] = company
-        if len(director.contents) >= 7:
+        if len(director.contents) >= 7: # parse title
             title = " ".join([s for s in director.contents[2:-4] if s.string])
             director_dict['title'] = title
         directors.append(director_dict)
