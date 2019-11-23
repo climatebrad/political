@@ -1,12 +1,10 @@
-"""https://payneinstitute.mines.edu/advisory-board/ parsing"""
+"""org-people scraper"""
 import json
 import datetime
 import re
 import requests
 from scrapers.payne import Payne
-
-# we'd like to make this into a generalized littlesis scrape-and-bulk-loader
-
+from scrapers.chamber import Chamber
 
 def get_org_people(org_name):
     org_scraper = scrapers[org_name]
