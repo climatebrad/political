@@ -23,22 +23,25 @@ class Payne(Scraper):
     def get_payne_bio(self, url):
         soup = self.get_soup(url)
         bio_text = None
-        if url.find('mines.edu'): # on the payne website:
+        if 'mines.edu' in url: # on the payne website:
             bio = soup.select_one(".et_pb_text_inner")
             for strong_tag in bio.find_all('strong'):
                 strong_tag.decompose()
             bio_text = bio.text
-        elif url.find('academia.edu'):
+        elif 'academia.edu' in url:
             bio_text = soup.select_one(".js-profile-about").text
         return bio_text
 
+    def get_person_blurb(self, person):
+        tags = person_text.find_all(["p", "div"])
+        return " ".join([tag.get_text(separator=' ') for tag in tags])
+
     def get_person_dict(self, person):
         person_text = person.select_one(".et_pb_text_inner")
-        print(person)
         person_dict = {
             'name' : person_text.find("h4").text,
-            'blurb' : " ".join([tag.text for tag in person_text.find_all(["p", "div"])]),
-            'bio' : self.get_payne_bio(person_text.find("a")['href']),
+            'blurb' : self.get_person_blurb(person),
+            'bio' : self.get_payne_bio(person.find("a")['href']),
             'image_url' : person.find("img")['src'],
         }
         return person_dict
