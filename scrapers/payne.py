@@ -1,8 +1,6 @@
 """payne.py
 Payne Institute scraper"""
-import requests
 from scraper import Scraper
-from bs4 import BeautifulSoup
 
 class Payne(Scraper):
     def __init__(self):
@@ -19,15 +17,18 @@ class Payne(Scraper):
             strong_tag.decompose()
         return bio.text
 
+    def get_person_dict(self, person):
+        person_dict = { # name is the only standard-formatted element
+            'name' : person.find("h4").text,
+            'blurb' : person.find("p").text,
+            'bio' : self.get_payne_director_bio(person.find("a")['href'])
+        }
+        return person_dict
+
     def get_people(self):
         people = list()
         for person in self.soup.select(".et_pb_text_inner"):
             if not person.find("h4"):
                 continue
-            person_dict = { # name is the only standard-formatted element
-                'name' : person.find("h4").text,
-                'blurb' : person.find("p").text,
-                'bio' : self.get_payne_director_bio(person.find("a")['href'])
-            }
-            people.append(person_dict)
+            people.append(self.get_person_dict(person))
         return people
