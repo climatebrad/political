@@ -6,11 +6,11 @@ import requests
 from scrapers.payne import Payne
 from scrapers.chamber import Chamber
 
-def get_org_people(org_name):
-    org_scraper = scrapers[org_name]
+def get_org_people(scraper):
+    org_scraper = scrapers[scraper]
     org_people_dict = {
         'retrieved_at' : datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-        'organization' : org_name,
+        'organization' : org_scraper.name,
         'default_relationship' : org_scraper.relationship,
         'people' : org_scraper.get_people()
     }
@@ -24,12 +24,15 @@ def save_org_people(org_name, people_dict):
         json.dump(people_dict, json_f, ensure_ascii=False, indent=4)
 
 payne = Payne()
-
+paynefellows = Payne('fellows')
 scrapers = {}
 scrapers[payne.name] = payne
+scrapers['paynefellows'] = paynefellows
 
 for scraper in scrapers:
     people = get_org_people(scraper)
     print(people)
     save_org_people(scraper, people)
+
+
 # get_bio('https://payneinstitute.mines.edu/project/nawal-al-hosany/')

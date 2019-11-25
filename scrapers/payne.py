@@ -30,9 +30,9 @@ class Payne(Scraper):
             bio = soup.select_one(".et_pb_text_inner")
             for strong_tag in bio.find_all('strong'):
                 strong_tag.decompose()
-            bio_text = bio.get_text(separator=' ')
+            bio_text = bio.get_text(separator=' ').strip
         elif 'academia.edu' in url:
-            bio_text = soup.select_one(".js-profile-about").text
+            bio_text = soup.select_one(".js-profile-about").text.strip
         return bio_text
 
     def get_person_blurb(self, person):
