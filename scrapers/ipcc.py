@@ -1,5 +1,5 @@
 """ipcc scraper"""
-
+import re
 from scraper import Scraper
 
 class IPCC(Scraper):
@@ -60,11 +60,14 @@ class IPCC(Scraper):
         """Gets report chapter authors. gets photo and id, but not gender and citizenship"""
         params = f'q={report_id}&p={chapter_id}'
         url = f'https://apps.ipcc.ch/report/authors/authors.php?{params}'
+        print(url)
         soup = self.get_soup(url)
         authors = []
         for ix, author in enumerate(soup.select('.mix')):
-            last, first = author.select_one('span.author').text.title().split(', ')
+            author_name = author.select_one('span.author').text.title()
+            last, first = re.match("([^,]+) ?, (.*)", author_name).groups()
             affiliation = author.find('font')
+            cur_aff = affiliation.contents[0] if len(affiliation) > 2 else None
             authors.append({
                 'index' : ix,
                 'role' : author['data-role'],
@@ -72,8 +75,8 @@ class IPCC(Scraper):
                     'id': int(author.select_one('span.author')['data-cid']),
                     'last name': last,
                     'first name': first,
-                    'country': affiliation.contents[2],
-                    'current affiliation': affiliation.contents[0],
+                    'country': affiliation.contents[-1],
+                    'current affiliation': cur_aff,
                     'photo': self.full_url(url, author.find('img')['src']) }
             })
         return authors
