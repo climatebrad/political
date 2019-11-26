@@ -6,8 +6,11 @@ class IPCC(Scraper):
     """
 from scrapers.ipcc import IPCC
 ipcc = IPCC()
-
-people = pd.DataFrame.from_dict(ipcc.people, orient='index')
+reports = ipcc.reports
+ipcc.load_reports(reload=True)
+reports = ipcc.reports
+people_df = pd.DataFrame.from_dict(ipcc.people, orient='index')
+reports_df = ipcc.flat_report_dataframe()
     """
     def __init__(self):
         super().__init__()

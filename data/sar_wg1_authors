@@ -1,0 +1,488 @@
+SAR	WG1	1	Convening Lead Author	K. Trenberth	National Center for Atmospheric Research, USA
+SAR	WG1	1	Lead Author	J. Houghton	IPCC WGI Co-Chairman, UK
+SAR	WG1	1	G. Meira	Agencia Espacial Brasileira, Brazil
+SAR	WG1	2	Convening Lead Author	D. Albritton	NOAA Aeronomy Laboratory, USA
+SAR	WG1	2	Convening Lead Author	P. Jonas	UMIST, UK
+SAR	WG1	2	Convening Lead Author	M . Prather	University of California @ Irvine, USA
+SAR	WG1	2	Convening Lead Author	D. Schimel	National Centre for Atmospheric Research, USA
+SAR	WG1	2	Convening Lead Author	K. Shine	University of Reading, UK
+SAR	WG1	2	Lead Author	D. Alves	Instituto Nacional de Pesquisas Espaciáis (INPE), Brazil
+SAR	WG1	2	Lead Author	R. Charlson	University of Washington, USA
+SAR	WG1	2	Lead Author	R. Derwent	Meteorological Office, UK
+SAR	WG1	2	Lead Author	D. Ehhalt	Institut fiir Chemie der KF A Jülich GmbH, Germany
+SAR	WG1	2	Lead Author	I. Enting	CSIRO Division of Atmospheric Research, Australia
+SAR	WG1	2	Lead Author	Y. Fouquart	LOA/Université des Science & Technologie de Lille, France
+SAR	WG1	2	Lead Author	P. Eraser	CSIRO Division of Atmospheric Research, Australia
+SAR	WG1	2	Lead Author	M . Heimann	Max-Plank Institut fur Météorologie, Germany
+SAR	WG1	2	Lead Author	I. Isaksen	University of Oslo (Geophysics), Norway
+SAR	WG1	2	Lead Author	F. Joos	University of Bern, Switzerland
+SAR	WG1	2	Lead Author	M . Lai	Centre for Atmospheric Sciences, India
+SAR	WG1	2	Lead Author	V. Ramaswamy	Geophysical Fluid Dynamics Laboratory, USA
+SAR	WG1	2	Lead Author	D. Raynaud	CNRS Laboratoire de Glaciologie, France
+SAR	WG1	2	Lead Author	H. Rodhe	University of Stockholm, Sweden
+SAR	WG1	2	Lead Author	S. Sadasivan	Bhabha Atomic Research Centre, India
+SAR	WG1	2	Lead Author	E. Sanhueza	Instituto Venezolano de Investigaciones Cientificas, Venezuela
+SAR	WG1	2	Lead Author	S. Solomon	NOAA Aeronomy Laboratory, USA
+SAR	WG1	2	Lead Author	J. Srinivasan	Langley Research Centre, USA
+SAR	WG1	2	Lead Author	T. Wigley	Office for Interdisciplinary Earth Studies @ UCAR, USA
+SAR	WG1	2	Lead Author	D. Wuebbles	Lawrence Livermore National Laboratory, USA
+SAR	WG1	2	Lead Author	X. Zhou	Academy of Meteorological Sciences, China
+SAR	WG1	2	Contributor	F. Alyea	Georgia Institute of Technology, USA
+SAR	WG1	2	Contributor	T. Anderson	University of Washington, USA
+SAR	WG1	2	Contributor	M. Andreae	Max-Planck Institut fur Chemie, Germany
+SAR	WG1	2	Contributor	D. Blake	University of California @ Irvine, USA
+SAR	WG1	2	Contributor	O. Boucher	Laboratoire de Météorologie Dynamique du CNRS, France
+SAR	WG1	2	Contributor	C. Brühl	Max-Planck Institut fur Chemie, Germany
+SAR	WG1	2	Contributor	J. Butler	NOAA, Climate Monitoring & Diagnostics Lab, USA
+SAR	WG1	2	Contributor	D. Cunnold	Georgia Institute of Technology, USA
+SAR	WG1	2	Contributor	J. Dignon	Lawrence Livermore National Laboratory, USA
+SAR	WG1	2	Contributor	E. Dlugokenchy	NOAA ERE @ Boulder, USA
+SAR	WG1	2	Contributor	J. Elkins	NOAA ERE @ Boulder, USA
+SAR	WG1	2	Contributor	I. Fung	University of Victoria, Canada
+SAR	WG1	2	Contributor	M. Geller	New York State University, USA
+SAR	WG1	2	Contributor	D. Hauglustaine	Service d'Aeronomie du CNRS, France
+SAR	WG1	2	Contributor	J. Haywood	Geophysical Fluid Dynamics Laboratory, USA
+SAR	WG1	2	Contributor	J. Heintzenberg	Institut fur Tropospharenforschung, Germany
+SAR	WG1	2	Contributor	D. Jacob	Harvard University, USA
+SAR	WG1	2	Contributor	A. Jain	University of Illinois, USA
+SAR	WG1	2	Contributor	C. Keeling	Scripps Institute of Oceanography, USA
+SAR	WG1	2	Contributor	S. Khmelevtsov	Institute of Experimental Meteorology, Russian Federation
+SAR	WG1	2	Contributor	J. Lelieveld	University of Wageningen, Netherlands
+SAR	WG1	2	Contributor	H. Le	Treut	Laboratoire de Météorologie Dynamique du CNRS, France
+SAR	WG1	2	Contributor	L. Levin	Universitat Heidelberg, Germany
+SAR	WG1	2	Contributor	M. Maiss	Universitat Heidelberg, Germany
+SAR	WG1	2	Contributor	G. Marland	Oak Ridge National Laboratory, USA
+SAR	WG1	2	Contributor	S. Marshall	University of Washington, USA
+SAR	WG1	2	Contributor	P. Midgley	M+D Consulting, Germany
+SAR	WG1	2	Contributor	B. Miller	Scripps Institute of Oceanography, USA
+SAR	WG1	2	Contributor	J. Mitchell	Meteorological Office, UK
+SAR	WG1	2	Contributor	S. Montzka	NOAA/CMDL , USA
+SAR	WG1	2	Contributor	H. Nakane	National Institute for Environmental Studies, Japan
+SAR	WG1	2	Contributor	P. Novelli	NOAA , Climate Monitoring & Diagnostics Lab, USA
+SAR	WG1	2	Contributor	B. O'Neill	Environmental Defense Fund, USA
+SAR	WG1	2	Contributor	D. Oram	University of East Anglia, UK
+SAR	WG1	2	Contributor	S. Penkett	University of East Anglia, UK
+SAR	WG1	2	Contributor	J. Penner	Lawrence Livermore National Laboratory, USA
+SAR	WG1	2	Contributor	S. Prinn	Massachusetts Institute of Technology, USA
+SAR	WG1	2	Contributor	P. Quay	University of Washington, USA
+SAR	WG1	2	Contributor	A. Robock	University of Maryland, USA
+SAR	WG1	2	Contributor	S. Schwartz	Brookhaven National Laboratory, USA
+SAR	WG1	2	Contributor	P. Simmonds	Bristol University, UK
+SAR	WG1	2	Contributor	S. Singh	Indian Institute of Tropical Meteorology
+SAR	WG1	2	Contributor	A. Slingo	Meteorological Office, UK
+SAR	WG1	2	Contributor	F. Stordal	Norwegian Institute for Air Research, Norway
+SAR	WG1	2	Contributor	E. Sulzman	National Center for Atmospheric Research, USA
+SAR	WG1	2	Contributor	P. Tans	NOAA,Climate Monitoring & Diagnostics Lab, USA
+SAR	WG1	2	Contributor	R. Weiss	Scripps Institute of Oceanography, USA
+SAR	WG1	2	Contributor	A. Wharner	Institut fur Chemie der KF A Jiilich GmbH, Germany
+SAR	WG1	2	Contributor	T. Whorf	Scripps Institute of Oceanography, USA
+SAR	WG1	3	Convening Lead Author	N. Nicholls	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	3	Lead Author	G. Gruza	Institute for Global Climate and Ecology, Russian Federation
+SAR	WG1	3	Lead Author	J. Jouzel	LMCE/DSM, France
+SAR	WG1	3	Lead Author	T. Karl	NOAA National Climate Data Center, USA
+SAR	WG1	3	Lead Author	L. Ogallo	University of Nairobi, Kenya
+SAR	WG1	3	Lead Author	D. Parker	Meteorological Office, UK
+SAR	WG1	3	Contributor	J. Angelí	NOAA ERE @ Silver Springs, USA
+SAR	WG1	3	Contributor	S. Anjian	National Meteorological Centre, China
+SAR	WG1	3	Contributor	P. Arkin	NWS W/NMC, USA
+SAR	WG1	3	Contributor	R. Balling Jr	Arizona State University, USA
+SAR	WG1	3	Contributor	M. Bardin	Institute for Global Climate and Ecology, Russian Federation
+SAR	WG1	3	Contributor	R. Barry	University of Colorado, USA
+SAR	WG1	3	Contributor	W. Bomin	National Meteorological Centre, China
+SAR	WG1	3	Contributor	R. Bradley	University of Massachusetts, USA
+SAR	WG1	3	Contributor	K. Briffa	University of East Anglia, UK
+SAR	WG1	3	Contributor	A. Carleton	Indiana University, USA
+SAR	WG1	3	Contributor	D. Cayan	Scripps Institute of Oceanography, USA
+SAR	WG1	3	Contributor	F. Chiew	University of Melbourne, Australia
+SAR	WG1	3	Contributor	J. Christy	University of Alabama @ Huntsville, USA
+SAR	WG1	3	Contributor	J. Churo	CSIRO Division of Oceanography, Australia
+SAR	WG1	3	Contributor	E. Cook	Lamont-Doherty Earth Observatory, USA
+SAR	WG1	3	Contributor	T. Crowley	Texas A&M University, USA
+SAR	WG1	3	Contributor	N. Datsenko	Hydrometeorological Research Centre of Russia, Russian Federation
+SAR	WG1	3	Contributor	R. Davis	University of Virginia, USA
+SAR	WG1	3	Contributor	B. Dey	Howard University, USA
+SAR	WG1	3	Contributor	H. Diaz	NOAA ERE @ Boulder, USA
+SAR	WG1	3	Contributor	W. Drosdowsky	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	3	Contributor	M. Duarte	Ciudad Universitaria, Argentina
+SAR	WG1	3	Contributor	J. Duplessy	Centre des Faibles Radioactivités, France
+SAR	WG1	3	Contributor	D. Easterling	National Climatic Data Center, USA
+SAR	WG1	3	Contributor	J. Eischeid	University of Colorado, USA
+SAR	WG1	3	Contributor	W. Elliott	NOAA ERL @ Silver Springs, USA
+SAR	WG1	3	Contributor	B. Findlay	Environment Canada, Canada
+SAR	WG1	3	Contributor	H. Flohn	Universitat Bonn, Germany
+SAR	WG1	3	Contributor	C. Folland	Meteorological Office, UK
+SAR	WG1	3	Contributor	R. Franke	Deutscher Wetterdienst Seewetteramt, Germany
+SAR	WG1	3	Contributor	P. Frich	Danish Meteorological Institute, Denmark
+SAR	WG1	3	Contributor	D. Gaffen	NOAA ERL @ Silver Springs, USA
+SAR	WG1	3	Contributor	V. Georgievsky	State Hydrological Institute, Russian Federation
+SAR	WG1	3	Contributor	T. Ginsburg	Hydrometeorological Research Centre of Russia, Russian Federation
+SAR	WG1	3	Contributor	W. Gould	Institute of Océanographie Sciences, UK
+SAR	WG1	3	Contributor	P. Groisman	State Hydrological Institute, Russian Federation
+SAR	WG1	3	Contributor	D. Gullet	Environment Canada, Canada
+SAR	WG1	3	Contributor	W. Haeberli	Verschanstalt fur Wasserbau Institut, Switzerland
+SAR	WG1	3	Contributor	S. Hastenrath	University of Wisconsin @ Madison, USA
+SAR	WG1	3	Contributor	A. Henderson-Sellers	Macquarie University, Austtalia
+SAR	WG1	3	Contributor	M. Hoelzle	Verschanstalt fur Wasserbau Institut, Switzerland
+SAR	WG1	3	Contributor	W. Hogg	Environment Canada, Canada
+SAR	WG1	3	Contributor	G. Holland	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	3	Contributor	L. Hopkins	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	3	Contributor	M. Hulme	Climatic Research Unit (UFA), UK
+SAR	WG1	3	Contributor	N. Ivachtchenko	Hydrometeorological Research Centre of Russia, Russian Federation
+SAR	WG1	3	Contributor	P. Jones	Climatic Research Unit (UEA), UK
+SAR	WG1	3	Contributor	R. Katz	National Center for Atmospheric Research, USA
+SAR	WG1	3	Contributor	B. Kininmonth	Bureau of Meteorology, Australia
+SAR	WG1	3	Contributor	R. Knight	NOAA National Climate Data Center, USA
+SAR	WG1	3	Contributor	N. Kononova	Russian Agricultural Academy, Russian Federation
+SAR	WG1	3	Contributor	L. Korovkina	Institute for Global Climate & Ecology, Russian Federation
+SAR	WG1	3	Contributor	G. Kukla	Lamont-Doherty Geological Laboratory, USA
+SAR	WG1	3	Contributor	K. Kumar	Indian Institute of Tropical Meteorology, India
+SAR	WG1	3	Contributor	P. Lamb	University of Oklahoma, USA
+SAR	WG1	3	Contributor	C. Landsea	Colorado State University, USA
+SAR	WG1	3	Contributor	S. Levitus	NOAA/NODC (E/OC23), USA
+SAR	WG1	3	Contributor	T. Lewis	Pacific Geoscience Centre, Canada
+SAR	WG1	3	Contributor	H. Lins	US Geological Survey (WGII Liaison Gip), USA
+SAR	WG1	3	Contributor	J. Lough	Australian Institute of Marine Science, Australia
+SAR	WG1	3	Contributor	L. Malone	Environment Canada, Canada
+SAR	WG1	3	Contributor	J. Marengo	CPTEC-INPE, Brazil
+SAR	WG1	3	Contributor	T. McMahon	University of Melbourne, Australia
+SAR	WG1	3	Contributor	E. Mekis	Environment Canada, Canada
+SAR	WG1	3	Contributor	A. Meshcherskya	Main Geophysical Observatory, Russian Federation
+SAR	WG1	3	Contributor	P. Michaels	University of Virginia, USA
+SAR	WG1	3	Contributor	S. Nicholson	Florida State University, USA
+SAR	WG1	3	Contributor	J. Oerlemans	University of Utrecht, Netherlands
+SAR	WG1	3	Contributor	G. Ohring	NOAA/NESDIS, USA
+SAR	WG1	3	Contributor	G. Pant	Indian Institute of Tropical Meteorology, India
+SAR	WG1	3	Contributor	N. Plummer	National Climate Centre, Australia
+SAR	WG1	3	Contributor	F. Quinn	Great Lakes Environmental Research Lab, USA
+SAR	WG1	3	Contributor	E. Ran'kova	Institute for Global Climate and Ecology, Russian Federation
+SAR	WG1	3	Contributor	E.V. Rocheva	Institute for Global Climate and Ecology, Russian Federation
+SAR	WG1	3	Contributor	C. Ropelewski	Climate Analysis Center, USA
+SAR	WG1	3	Contributor	B. Santer	Lawrence Livermore National Laboratory, USA
+SAR	WG1	3	Contributor	H. Schmidt	Deutscher Wetterdienst Seewetteramt, Germany
+SAR	WG1	3	Contributor	E. Semenyuk	Institute for Global Climate and Ecology, Russia
+SAR	WG1	3	Contributor	I. Shiklomanov	State Hydrological Institute, Russian Federation
+SAR	WG1	3	Contributor	M. Shinoda	University of Tokyo, Japan
+SAR	WG1	3	Contributor	N. Sidorenkov	Hydrometeorological Research Centre of Russia, Russian Federation
+SAR	WG1	3	Contributor	I. Soldatova	Hydrometeorological Research Centre of Russia, Russian Federation
+SAR	WG1	3	Contributor	D. Sonechkin	Hydrometeorological Research Centre of Russia, Russian Federation
+SAR	WG1	3	Contributor	R. Spencer	Marshall Space Flight Center, USA
+SAR	WG1	3	Contributor	N. Speranskaya	State Hydrological Institute, Russian Federation
+SAR	WG1	3	Contributor	K. Trenberth	National Center for Atmospheric Research, USA
+SAR	WG1	3	Contributor	C. Tsay	Central Weather Bureau, Taiwan
+SAR	WG1	3	Contributor	J. Walsh	University of Illinois @ Urbana-Champaign, USA
+SAR	WG1	3	Contributor	K. Wang	Pacific Geoscience Centre, Canada
+SAR	WG1	3	Contributor	N. Ward	IMGA-CNR, Italy
+SAR	WG1	3	Contributor	S. Warren	University of Washington, USA
+SAR	WG1	3	Contributor	T. Yasunari	University of Tsukuba, Japan
+SAR	WG1	3	Contributor	Q. Zu	Jiangsu Meteorological Institute, China
+SAR	WG1	4	Convening Lead Author	R. Dickinson	University of Arizona, USA
+SAR	WG1	4	Lead Author	V. Meleshko	Voeikov Main Geophysical Observatory, Russian Federation
+SAR	WG1	4	Lead Author	D. Randall	Colorado State University, USA
+SAR	WG1	4	Lead Author	E. Sarachik	University of Washington, USA
+SAR	WG1	4	Lead Author	P. Silva-Dias	University of Sao Paulo, Brazil
+SAR	WG1	4	Lead Author	A. Slingo	Meteorological Office, UK
+SAR	WG1	4	Contributor	A. Barros	Pennsylvania State University, USA
+SAR	WG1	4	Contributor	O. Boucher	Laboratoire de Météorologie Dynamique du CNRS, France
+SAR	WG1	4	Contributor	R. Cess	University of New York State, USA
+SAR	WG1	4	Contributor	A. Del Genio	GISS, USA
+SAR	WG1	4	Contributor	L. Dumenil	Max-Planck Institut fur Météorologie, Germany
+SAR	WG1	4	Contributor	R. Fu	University of Arizona, USA
+SAR	WG1	4	Contributor	P. Gleckler	Lawrence Livermore National Laboratory, USA
+SAR	WG1	4	Contributor	J. Hansen	Goddard Institute for Space Studies, USA
+SAR	WG1	4	Contributor	R. Lindzen	Massachusetts Institute of Technology, USA
+SAR	WG1	4	Contributor	E. Maier-Reimer	Max-Planck Institut fur Météorologie, Germany
+SAR	WG1	4	Contributor	K. McNaughton	Hort Research, New Zealand
+SAR	WG1	4	Contributor	J. McWilliams	UCLA, USA
+SAR	WG1	4	Contributor	G. Meehl	National Centre for Atmospheric Research, USA
+SAR	WG1	4	Contributor	M. Miller	ECMWF, UK
+SAR	WG1	4	Contributor	D. Neelin	University of California, USA
+SAR	WG1	4	Contributor	E. Olaguer	Dow Chemical Co., USA
+SAR	WG1	4	Contributor	T. Palmer	ECMWF, UK
+SAR	WG1	4	Contributor	C. Penland	University of Colorado, USA
+SAR	WG1	4	Contributor	R. Pinker	University of Maryland, USA
+SAR	WG1	4	Contributor	V. Ramaswamy	Geophysical Fluid Dynamics Laboratory, USA
+SAR	WG1	4	Contributor	D. Rind	Goddard Institute of Space Studies, USA
+SAR	WG1	4	Contributor	A. Robock	University of Maryland, USA
+SAR	WG1	4	Contributor	M. Salby	University of Colorado, USA
+SAR	WG1	4	Contributor	M. Schlessinger	University of IlUnois at Urbana-Champaign, USA
+SAR	WG1	4	Contributor	H. Schmid	Swiss Federal Institute of Technology, Switzerland
+SAR	WG1	4	Contributor	C. Senior	Meteorological Office, UK
+SAR	WG1	4	Contributor	Q. Shao	University of Arizona, USA
+SAR	WG1	4	Contributor	K. Shine	University of Reading, UK
+SAR	WG1	4	Contributor	H. Sundquist	University of Stockholm, Sweden
+SAR	WG1	4	Contributor	A. Vogelmann	University of Arizona, USA
+SAR	WG1	4	Contributor	A. Weaver	University of Victoria, Canada
+SAR	WG1	5	Convening Lead Author	W. Gates	Lawrence Livermore National Laboratory, USA
+SAR	WG1	5	Lead Author	G. Boer	Canadian Centre for Climate Modelling & Analysis, Canada
+SAR	WG1	5	Lead Author	A. Henderson-Sellers	Macquarie University, Australia
+SAR	WG1	5	Lead Author	C. Folland	Meteorological Office, UK
+SAR	WG1	5	Lead Author	A. Kitoh	Japan Meteorological Agency, Japan
+SAR	WG1	5	Lead Author	B. McAvaney	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	5	Lead Author	F. Semazzi	NortU Carolina State University, USA
+SAR	WG1	5	Lead Author	N. Smith	Bureau of Meterology Research Centre, Australia
+SAR	WG1	5	Lead Author	A. Weaver	University of Victoria, Canada
+SAR	WG1	5	Lead Author	Q. Zeng	Institute of Atmospheric Physics, China
+SAR	WG1	5	Contributor	J. Boyle	Lawrence Livermore National Laboratory, USA
+SAR	WG1	5	Contributor	R. Cess	University of New York State, USA
+SAR	WG1	5	Contributor	T. Chen	Macquarie University, Australia
+SAR	WG1	5	Contributor	J. Christy	University of Alabama @ HuntsviUe, USA
+SAR	WG1	5	Contributor	C. Covey	Lawrence Livermore National Laboratory, USA
+SAR	WG1	5	Contributor	T. Crowley	Texas A&M University, USA
+SAR	WG1	5	Contributor	U. Cubasch	Deutsches Klimarechenzentrum, Germany
+SAR	WG1	5	Contributor	J. Davies	Meteorological Office, UK
+SAR	WG1	5	Contributor	M. Fiorino	Lawrence Livermore National Laboratory, USA
+SAR	WG1	5	Contributor	G. Flato	Canadian Centre for Climate Modelling & Analysis, Canada
+SAR	WG1	5	Contributor	С. Fredericksen	BMRC, Australia
+SAR	WG1	5	Contributor	F. Giorgi	National Center for Atmospheric Research, USA
+SAR	WG1	5	Contributor	P. Gleckler	Lawrence Livermore National Laboratory, USA
+SAR	WG1	5	Contributor	J. Hack	NCAR, USA
+SAR	WG1	5	Contributor	J. Hansen	Goddard Institute for Space Studies, USA
+SAR	WG1	5	Contributor	G. Hegerl	Max-Planck Institut fur Météorologie, Germany
+SAR	WG1	5	Contributor	R. Huang	Woods Hole Océanographie Institution, USA
+SAR	WG1	5	Contributor	P. Irannejad	Macquarie University, Australia
+SAR	WG1	5	Contributor	T. Johns	Meteorological Office, UK
+SAR	WG1	5	Contributor	J. Kiehl	National Center for Atmospheric Research, USA
+SAR	WG1	5	Contributor	H. Koide	Meteorological Research Institute, Japan
+SAR	WG1	5	Contributor	R. Koster	University of Maryland, USA
+SAR	WG1	5	Contributor	J. Kutzbach	University of Wisconsin @ Madison, USA
+SAR	WG1	5	Contributor	S. Lambert	University of Victoria, Canada
+SAR	WG1	5	Contributor	R. Latif	Max-Planck Instimt fur Météorologie, Germany
+SAR	WG1	5	Contributor	N. Lau	NOAA, USA
+SAR	WG1	5	Contributor	P. Lemke	Alfred-Wegener Institute for Polar & Marine Research, Germany
+SAR	WG1	5	Contributor	R. Livezey	NOAA, USA
+SAR	WG1	5	Contributor	P. Love	Macquarie University, Australia
+SAR	WG1	5	Contributor	N. McFarlane	Canadian Climate Centre, Canada
+SAR	WG1	5	Contributor	K. McGuffie	University of Technology, USA
+SAR	WG1	5	Contributor	G. Meehl	National Centre for Atmospheric Research, USA
+SAR	WG1	5	Contributor	I. Mokhov	Institute of Atmospheric Physics, Russia
+SAR	WG1	5	Contributor	A. Noda	Japan Meteorological Agency,Japan
+SAR	WG1	5	Contributor	B. Otto-Bliesner	University of Texas, USA
+SAR	WG1	5	Contributor	T. Palmer	ECMWF, UK
+SAR	WG1	5	Contributor	T. Phillips	Lawrence Livermore National Laboratory, USA
+SAR	WG1	5	Contributor	A. Pitman	Macquarie University, Australia
+SAR	WG1	5	Contributor	J. Polcher	Laboratoire de Météorologie Dynamique du CNRS, France
+SAR	WG1	5	Contributor	G. Potter	Lawrence Livermore National Laboratory, USA
+SAR	WG1	5	Contributor	S.B. Power	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	5	Contributor	D. Randall	Colorado State University, USA
+SAR	WG1	5	Contributor	P. Rasch	National Center for Atmospheric Research, USA
+SAR	WG1	5	Contributor	A. Robock	University of Maryland, USA
+SAR	WG1	5	Contributor	B. Santer	Lawrence Livermore National Laboratory, USA
+SAR	WG1	5	Contributor	E. Sarachik	University of Washington, USA
+SAR	WG1	5	Contributor	N. Sato	Japan Meteorological Agency, Japan
+SAR	WG1	5	Contributor	A. Semtner Jr	Naval Postgraduate School, USA
+SAR	WG1	5	Contributor	J. Slingo	University of Reading, UK
+SAR	WG1	5	Contributor	I. Smith	IEA Coal Research, London, UK
+SAR	WG1	5	Contributor	K. Sperber	Lawrence Livermore National Laboratory, USA
+SAR	WG1	5	Contributor	R. Stouffer	Geophysical Fluid Dynamics Laboratory, USA
+SAR	WG1	5	Contributor	M. Sugi	National Research Institute for Earth Science & Disaster Prevention, Japan
+SAR	WG1	5	Contributor	J. Syktus	CSIRO, Austraha
+SAR	WG1	5	Contributor	K. Taylor	Lawrence Livermore National Laboratory , USA
+SAR	WG1	5	Contributor	S. Tett	Meteorological Office, UK
+SAR	WG1	5	Contributor	S. Tibaidi	University of Bologna, Italy
+SAR	WG1	5	Contributor	W. Wang	State University of New York @ Albany, USA
+SAR	WG1	5	Contributor	W. Washington	National Center for Atmospheric Research, USA
+SAR	WG1	5	Contributor	B. Weare	University of California, USA
+SAR	WG1	5	Contributor	D. Williamson	National Center for Atmospheric Research, USA
+SAR	WG1	5	Contributor	T. Yamagata	University of Tokyo, Japan
+SAR	WG1	5	Contributor	Z. Yang	University of Arizona, USA
+SAR	WG1	5	Contributor	R. Zhang	Institute of Atmospheric Physics, China
+SAR	WG1	5	Contributor	M. Zhang	State University of New York @ Stony Brook, USA
+SAR	WG1	5	Contributor	F. Zwiers	Canadian Climate Centre, Canada
+SAR	WG1	6	Convening Lead Author	A. Kattenberg	Royal Netherlands Meteorological Institute (KNMI), Netherlands
+SAR	WG1	6	Lead Author	F. Giorgi	National Centre for Atmospheric Research, USA
+SAR	WG1	6	Lead Author	H. Grassl	World Meteorological Organisation, Switzerland
+SAR	WG1	6	Lead Author	G. Meehl	National Centre for Atmospheric Research, USA
+SAR	WG1	6	Lead Author	J. Mitchell	Meteorological Office, UK
+SAR	WG1	6	Lead Author	R. Stoufer	Geophysical Fluid Dynamics Laboratory, USA
+SAR	WG1	6	Lead Author	T. Tokioka	Japan Meteorological Agency, Japan
+SAR	WG1	6	Lead Author	A. Weaver	University of Victoria, Canada
+SAR	WG1	6	Lead Author	T. Wigley	Office for Interdisciplinary Earth Studies @ UCAR, USA
+SAR	WG1	6	Contributor	A. Barros	Pennsylvania State University, USA
+SAR	WG1	6	Contributor	M. Beniston	E TH Institute of Geography, Switzerland
+SAR	WG1	6	Contributor	G. Boer	Canadian Centre for Climate Modelling & Analysis, Canada
+SAR	WG1	6	Contributor	T. Buishand	Royal Netherlands Meteorological Institute (KNMI), Netherlands
+SAR	WG1	6	Contributor	J. Christensen	Danish Meteorological Institute, Denmark
+SAR	WG1	6	Contributor	R. Colman	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	6	Contributor	J. Copeland	Colorado State University, USA
+SAR	WG1	6	Contributor	P. Cox	Meteorological Office, UK
+SAR	WG1	6	Contributor	A. Cress	Deutscher Wetterdienst Zentralamt, Germany
+SAR	WG1	6	Contributor	U. Cubasch	Deutsches Klimarechenzentrum, Germany
+SAR	WG1	6	Contributor	M. Deque	Centre National de Recherches Météorologiques, France
+SAR	WG1	6	Contributor	G. Flato	Canadian Centre for Climate Modelling & Analysis, Canada
+SAR	WG1	6	Contributor	C. Fu	Institute of Atmospheric Physics, China
+SAR	WG1	6	Contributor	I. Fung	University of Victoria, Canada
+SAR	WG1	6	Contributor	J. Garratt	CSIRO, Australia
+SAR	WG1	6	Contributor	S. Ghan	Battelle Pacific Northwest Laboratories, USA
+SAR	WG1	6	Contributor	H. Gordon	CSIRO Division of Atmospheric Research, Australia
+SAR	WG1	6	Contributor	J. Gregory	Meteorological Office, UK
+SAR	WG1	6	Contributor	P. Guttorp	University of Washington, USA
+SAR	WG1	6	Contributor	A. Henderson-Sellers	Macquarie University, Australia
+SAR	WG1	6	Contributor	K. Hennessy	CSIRO Division of Atmospheric Research, Australia
+SAR	WG1	6	Contributor	H. Hirakuchi	CRIEPI, Japan
+SAR	WG1	6	Contributor	G. Holland	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	6	Contributor	B. Horton	Meteorological Office, UK
+SAR	WG1	6	Contributor	T. Johns	Meteorological Office, UK
+SAR	WG1	6	Contributor	R. Jones	Meteorological Office, UK
+SAR	WG1	6	Contributor	M. Kanamitsu	W/NMC2 , USA
+SAR	WG1	6	Contributor	T. Karl	NOAA National Climate Data Center, USA
+SAR	WG1	6	Contributor	D. Karoly	Monash University, Australia
+SAR	WG1	6	Contributor	A. Keen	Meteorological Office, UK
+SAR	WG1	6	Contributor	T. Kittel	National Center for Atmospheric Research, USA
+SAR	WG1	6	Contributor	T. Knutson	Geophysical Fluid Dynamics Laboratory, USA
+SAR	WG1	6	Contributor	T. Koide	Meteorological Research Institute, Japan
+SAR	WG1	6	Contributor	G. Können	Royal Netherlands Meteorological Institute (KNMI), Netherlands
+SAR	WG1	6	Contributor	M. Lal	Centre for Atmospheric Sciences, India
+SAR	WG1	6	Contributor	R. Laprise	University of Quebec at Montreal, Canada
+SAR	WG1	6	Contributor	R. Leung	Battelle Pacific Northwest Laboratory, USA
+SAR	WG1	6	Contributor	A. Lupo	Purdue University, USA
+SAR	WG1	6	Contributor	A. Lync	University of Tasmania, Australia
+SAR	WG1	6	Contributor	C. Ma	University of California, USA
+SAR	WG1	6	Contributor	B. Machenhauer	Max-Planck Institut fur Météorologie, Germany
+SAR	WG1	6	Contributor	E. Maier-Reimer	Max-Planck Institut fur Météorologie, Germany
+SAR	WG1	6	Contributor	M. Marinucci	NCAR, USA
+SAR	WG1	6	Contributor	B. McAvaney	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	6	Contributor	J. McGregor	CSIRO Division of Atmospheric Research, Australia
+SAR	WG1	6	Contributor	L. Mearns	National Center for Atmospheric Research, USA
+SAR	WG1	6	Contributor	N. Miller	Lawrence Livermore National Laboratory, USA
+SAR	WG1	6	Contributor	J. Murphy	Meteorological Office, UK
+SAR	WG1	6	Contributor	A. Noda	Japan Meteorological Agency, Japan
+SAR	WG1	6	Contributor	M. Noguer	Meteorological Office, UK
+SAR	WG1	6	Contributor	J. Oberhuber	Deutsches Klimarechenzentrum, Germany
+SAR	WG1	6	Contributor	S. Parey	Electricité de France, France
+SAR	WG1	6	Contributor	H. Pleym	Telemark College of Engineering, Norway
+SAR	WG1	6	Contributor	J. Raisanen	University of Helsinki, Finland
+SAR	WG1	6	Contributor	D. Randall	Colorado State University, USA
+SAR	WG1	6	Contributor	S. Raper	Climatic Research Unit (UEA), UK
+SAR	WG1	6	Contributor	P. Rayner	Princeton University, USA
+SAR	WG1	6	Contributor	J. Roads	Scripps Institution of Oceanography, USA
+SAR	WG1	6	Contributor	E. Roeckner	Max-Planck Institut fur Météorologie, Germany
+SAR	WG1	6	Contributor	G. Russell	Goddard Institute for Space Studies, USA
+SAR	WG1	6	Contributor	H. Sasaki	Meteorological Research Institute, Japan
+SAR	WG1	6	Contributor	F. Semazzi	North Carolina State University, USA
+SAR	WG1	6	Contributor	C. Senior	Meteorological Office, UK
+SAR	WG1	6	Contributor	C. Skelly	James Cook University, Australia
+SAR	WG1	6	Contributor	K. Sperber	Lawrence Livermore National Laboratory, USA
+SAR	WG1	6	Contributor	K. Taylor	Lawrence Livermore National Laboratory, USA
+SAR	WG1	6	Contributor	S. Tett	Meteorological Office, UK
+SAR	WG1	6	Contributor	H. von	Storch Max- Planck Institut fur Météorologie, Germany
+SAR	WG1	6	Contributor	K. Walsh	CSIRO, Australia
+SAR	WG1	6	Contributor	P. Whetton	CSIRO Division of Atmospheric Research, Australia
+SAR	WG1	6	Contributor	D. Wilks	Cornell University, USA
+SAR	WG1	6	Contributor	I. Woodward	University of Sheffield, UK
+SAR	WG1	6	Contributor	E. Zwiers	Canadian Climate Centre, Canada
+SAR	WG1	7	Convening Lead Author	D. Warrick	The University of Waikato, New Zealand
+SAR	WG1	7	Lead Author	C. Le	Provost	Institute de Mécanique de Grenoble, France
+SAR	WG1	7	Lead Author	M. Meier	Institute of Artie & Alpine Research, USA
+SAR	WG1	7	Lead Author	J. Oerlemans	University of Utrecht, Netherlands
+SAR	WG1	7	Lead Author	P. Woodworth	Permanent Service for Mean Sea Level (PSMSL), UK
+SAR	WG1	7	Contributor	R. Alley	Pennsylvania State University, USA
+SAR	WG1	7	Contributor	C. Bentley	University of Wisconsin @ Madison, USA
+SAR	WG1	7	Contributor	R. Bindschadler	Goddard Space Flight Center, USA
+SAR	WG1	7	Contributor	R. Braithwaite	University of Manchester, UK
+SAR	WG1	7	Contributor	B. Douglas	NOAA/NODC, USA
+SAR	WG1	7	Contributor	M. Dyurgerov	Institute of Geography, Russia
+SAR	WG1	7	Contributor	N. Flemming	Institute of Océanographie Sciences Deacon Labotatory, UK
+SAR	WG1	7	Contributor	C. Genthon	Laboratoire de Glaciologie, CNRS, France
+SAR	WG1	7	Contributor	V. Gornitz	Goddard Institute for Space Studies, USA
+SAR	WG1	7	Contributor	J. Gregory	Meteorological Office, UK
+SAR	WG1	7	Contributor	W. Haeberli	Verschanstalt fur Wasserbau Institut, Switzerland
+SAR	WG1	7	Contributor	P. Huybrechts	Alfred-Wegener Institute for Polar & Marine Research, Germany
+SAR	WG1	7	Contributor	T. Jóhannesson	Orkustofnun (National Energy Authority), Iceland
+SAR	WG1	7	Contributor	U. Mikolajewicz	Max-Planck Institut fur Météorologie, Germany
+SAR	WG1	7	Contributor	S. Raper	Climatic Research Unit (UEA), UK
+SAR	WG1	7	Contributor	D. Sahagian	University of New Hampshire, USA
+SAR	WG1	7	Contributor	T. Wigley	OIES @ UCAR, USA
+SAR	WG1	7	Contributor	J. de Wolde	University of Utrecht, Netherlands
+SAR	WG1	8	Convening Lead Author	B. Santer	Lawrence Livermore National Laboratory, USA
+SAR	WG1	8	Lead Author	E. Anyamba	NAS A Goddard Space Flight Center, USA
+SAR	WG1	8	Lead Author	T. Barnett	Scripps Institute Of Oceanography, USA
+SAR	WG1	8	Lead Author	T. Wigley	OIES @ UCAR, USA
+SAR	WG1	8	Contributor	P. Bloomfield	Merrill Lynch Derivative Products, USA
+SAR	WG1	8	Contributor	E. Cook	Lamont-Doheity Earth Observatory, USA
+SAR	WG1	8	Contributor	C. Covey	Lawrence Livermore National Laboratory, USA
+SAR	WG1	8	Contributor	T. Crowley	Texas A&M University, USA
+SAR	WG1	8	Contributor	T. Delworth	Geophysical Fluid Dynamics Laboratory, USA
+SAR	WG1	8	Contributor	L. Gates	Lawrence Livermore National Laboratory, USA
+SAR	WG1	8	Contributor	N. Graham	Scripps Institute of Oceanography, USA
+SAR	WG1	8	Contributor	J. Gregory	Meteorological Office, UK
+SAR	WG1	8	Contributor	J. Hansen	Goddard Institute for Space Studies, USA
+SAR	WG1	8	Contributor	K. Hasselmann	Max-Planck Institut fur Météorologie, Germany
+SAR	WG1	8	Contributor	G. Hegerl	Max- Planck Institut fur Météorologie, Germany
+SAR	WG1	8	Contributor	T. Johns	Meteorological Office, UK
+SAR	WG1	8	Contributor	P. Jones	Climatic Research Unit (UEA), UK
+SAR	WG1	8	Contributor	T. Karl	NOAA National Climate Data Center, USA
+SAR	WG1	8	Contributor	D. Karoly	Monash University, AustraUa
+SAR	WG1	8	Contributor	H. Kheshgi	EXXON , USA
+SAR	WG1	8	Contributor	M. MacCracken	Office of the USGCRP, USA
+SAR	WG1	8	Contributor	K. Maskell	IPCC WGI Technical Support Unit, UK
+SAR	WG1	8	Contributor	G. Meehl	National Centre for Atmospheric Research, USA
+SAR	WG1	8	Contributor	J. Mitchell	Meteorological Office, UK
+SAR	WG1	8	Contributor	J. Murphy	Meteorological Office, UK
+SAR	WG1	8	Contributor	N. Nicholls	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	8	Contributor	G. North	Texas A&M University, USA
+SAR	WG1	8	Contributor	M. Oppenheimer	Environmental Defense Fund, USA
+SAR	WG1	8	Contributor	J. Penner	Lawrence Livermore National Laboratory, USA
+SAR	WG1	8	Contributor	S. Power	Bureau of Meteorology Research Centre, Australia
+SAR	WG1	8	Contributor	A. Robock	University of Maryland, USA
+SAR	WG1	8	Contributor	C. Senior	Meteorological Office, UK
+SAR	WG1	8	Contributor	K. Taylor	Lawrence Livermore National Laboratory, USA
+SAR	WG1	8	Contributor	S. Tett	Meteorological Office, UK
+SAR	WG1	8	Contributor	F. Zwiers	Canadian Climate Centre, Canada
+SAR	WG1	9	Convening Lead Author	J. Melillo	Woods Hole Oceanographic Institution, USA
+SAR	WG1	9	Lead Author	G. Farquhar	Australian National University, Australia
+SAR	WG1	9	Lead Author	C. Prentice	Lund University, Sweden
+SAR	WG1	9	Lead Author	O. Sala	University of Buenos Aires, Argentina
+SAR	WG1	9	Lead Author	E. Schulze	Bayreuth University, Germany
+SAR	WG1	9	Contributor	P. Bartlein	University of Oregon, USA
+SAR	WG1	9	Contributor	F. Bazzaz	Harvard University, USA
+SAR	WG1	9	Contributor	R. Bradshaw	Swedish University of Agricultural Sciences, Sweden
+SAR	WG1	9	Contributor	J. Clark	Duke University, USA
+SAR	WG1	9	Contributor	M. Claussen	Max Planck Institut fur Météorologie, Germany
+SAR	WG1	9	Contributor	G. Collatz	NASA Goddard Space Flight Center, USA
+SAR	WG1	9	Contributor	M. Coughenour	Colorado State University, USA
+SAR	WG1	9	Contributor	C. Field	Carnegie Institute of Washington, USA
+SAR	WG1	9	Contributor	J. Foley	James Cook University, Australia
+SAR	WG1	9	Contributor	A. Friend	Institute of Terrestrial Ecology, UK
+SAR	WG1	9	Contributor	B. Huntley	University of Durham, UK
+SAR	WG1	9	Contributor	C. Körner	University of Basel, Switzerland
+SAR	WG1	9	Contributor	W. Kurz	ESSA Ltd, Canada
+SAR	WG1	9	Contributor	R. Leemans	RIVM, Netherlands
+SAR	WG1	9	Contributor	J. Lloyd	Australian National University, Australia
+SAR	WG1	9	Contributor	P. Martin	European Commision, Italy
+SAR	WG1	9	Contributor	K. McNaughton	Hort Research, New Zealand
+SAR	WG1	9	Contributor	A. McGuire	University of Alaska-Fairbanks, USA
+SAR	WG1	9	Contributor	R. Neilson	US Dept of Agriculture, USA
+SAR	WG1	9	Contributor	W. Oechel	San Diego State University, USA
+SAR	WG1	9	Contributor	J. Overpeck	NOAA/National Geophysical Data Center, USA
+SAR	WG1	9	Contributor	W. Parton	Colorado State University, USA
+SAR	WG1	9	Contributor	L. Pitelka	Electric Power Research Institute (EPRI), USA
+SAR	WG1	9	Contributor	D. Rind	Goddard Institute of Space Studies, USA
+SAR	WG1	9	Contributor	S. Running	University of Montana. USA
+SAR	WG1	9	Contributor	D. Schimel	National Center for Atmospheric Research, USA
+SAR	WG1	9	Contributor	T. Smith	University of Virginia, USA
+SAR	WG1	9	Contributor	T. Webb	Brown University, USA
+SAR	WG1	9	Contributor	C. Whitlock	University of Oregon, USA
+SAR	WG1	10	Convening Lead Author	K. Denman	Institute of Ocean Sciences, Canada
+SAR	WG1	10	Lead Author	E. Hofmann	Crittenton Hall Old Dominion University, USA
+SAR	WG1	10	Lead Author	H. Marchant	DEST, Australia
+SAR	WG1	10	Contributor	M. Abbott	Oregon State University, USA
+SAR	WG1	10	Contributor	T. Bates	NOAA, USA
+SAR	WG1	10	Contributor	S. Calvert	University of British Columbia, Canada
+SAR	WG1	10	Contributor	M. Fasham	James Rennell Centre (NERC), UK
+SAR	WG1	10	Contributor	R. Jahnke	Skidaway Institution of Oceanography, USA
+SAR	WG1	10	Contributor	S. Kempe	University of Hamburg, Germany
+SAR	WG1	10	Contributor	R. Lara	Alfred-Wegener Institute for Polar & Marine Research, Germany
+SAR	WG1	10	Contributor	C. Law	Plymouth Marine Laboratory, UK
+SAR	WG1	10	Contributor	P. Liss	University of East Anglia, UK
+SAR	WG1	10	Contributor	A. Michaels	Bermuda Biological Research Station, Bermuda
+SAR	WG1	10	Contributor	T. Pederson	University of British Columbia, Canada
+SAR	WG1	10	Contributor	M. Peña	Institute of Ocean Sciences, Canada
+SAR	WG1	10	Contributor	T. Piatt	Bedford Institute of Oceanography, Canada
+SAR	WG1	10	Contributor	K. Van Scoy	Plymouth Marine Laboratory, UK
+SAR	WG1	10	Contributor	J. Sharp	University of Delaware, USA
+SAR	WG1	10	Contributor	D. Thomas	The Interuniversity Institute for Marine Sciences, Israel
+SAR	WG1	10	Contributor	J. Walsh	University of South Florida, USA
+SAR	WG1	10	Contributor	A. Watson	Plymouth Marine Laboratory, UK
+SAR	WG1	11	Convening Lead Author	G. McBean	Atmospheric Environment Canada, Canada
+SAR	WG1	11	Lead Author	P. Liss	University of East Anglia, UK
+SAR	WG1	11	Lead Author	S. Schneider	Stanford University, USA
