@@ -1,6 +1,5 @@
 """ipcc scraper"""
 import re
-import pandas as pd
 from scraper import Scraper
 
 class IPCC(Scraper):
@@ -89,36 +88,17 @@ people = pd.DataFrame.from_dict(ipcc.people, orient='index')
             })
         return authors
 
+
+
     def flat_report_dataframe(self):
         """Returns self.reports as a fully flattened dataframe"""
-        df = pd.DataFrame(self.reports)
+        df = self.as_df(self.reports)
         # expand chapters
-        df2 = pd.DataFrame(df.chapters.tolist(), index=df.id) \
-                .stack() \
-                .reset_index() \
-                .drop(columns='level_1')
-        # merge in expanded chapters
-        df3 = df.drop(columns='chapters') \
-                .merge(df2.drop(columns=0) \
-                       .join(df2[0].apply(pd.Series), rsuffix='_chapter'),
-                 on='id')
+        df = self.expand_df_list_column(df, 'chapters', 'id')
         # expand authors
-        df4 = pd.DataFrame(df3.authors.tolist(),
-                           index=[df3.id, df3.id_chapter]
-                           ).stack() \
-                            .reset_index() \
-                            .drop(columns='level_2')
-        # merge in authors
-        df5 = df3.drop(
-                       columns='authors'
-                      ).merge(
-                              df4.drop(columns=0).join(df4[0].apply(pd.Series),
-                                                       rsuffix='_author'),
-                              on=['id','id_chapter'])
+        df = self.expand_df_list_column(df, 'authors', ['id','id_chapters'])
         # expand person fields
-        return df5.drop(columns='person') \
-                  .join(df5.person.apply(pd.Series),
-                        rsuffix='_person')
+        return self.expand_df_dict_column(df, 'person')
 
     def save_report_json(self):
         """scrape and ipcc_report_list.json file"""

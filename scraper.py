@@ -66,6 +66,33 @@ class Scraper:
         with open(f'{filename}.json', 'w', encoding='utf-8') as json_f:
             json.dump(var, json_f, ensure_ascii=False, indent=4)
 
+    @staticmethod
+    def expand_df_list_column(df, expand_col, index):
+        """Expand dataframe on expand_col, matching on index.
+        Index can be single column name or list of column names."""
+        if type(index) is not list: index = [index]
+        df_indices = [df[ix] for ix in index]
+        df2 = pd.DataFrame(df[expand_col].tolist(), index=df_indices) \
+                .stack() \
+                .reset_index() \
+                .drop(columns=f'level_{len(index)}')
+        return df.drop(columns=expand_col) \
+                .merge(df2.drop(columns=0) \
+                       .join(df2[0].apply(pd.Series), rsuffix=f'_{expand_col}'),
+                 on=index)
+
+    @staticmethod
+    def expand_df_dict_column(df, expand_col):
+        """Expand dataframe on expand_col"""
+        return df.drop(columns=expand_col) \
+                 .join(df[expand_col].apply(pd.Series),
+                       rsuffix=f'_{expand_col}')
+
+    @staticmethod
+    def as_df(var):
+        """Return var as DataFrame."""
+        return pd.DataFrame(var)
+
     def get_soup(self, url):
         """get BeatifulSoup from url"""
         return BeautifulSoup(self.get_url(url).text, 'html.parser')
