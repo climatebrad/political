@@ -6,6 +6,7 @@ import json
 from bs4 import BeautifulSoup
 import pandas as pd
 from urllib.parse import urljoin
+import inflection
 
 class Scraper:
     def __init__(self):
@@ -66,26 +67,29 @@ class Scraper:
         with open(f'{filename}.json', 'w', encoding='utf-8') as json_f:
             json.dump(var, json_f, ensure_ascii=False, indent=4)
 
+    # TODO: correctly set column prefixes
     @staticmethod
     def expand_df_list_column(df, expand_col, index):
         """Expand dataframe on expand_col, matching on index.
         Index can be single column name or list of column names."""
         if type(index) is not list: index = [index]
+        expand_col_single = inflection.singularize(expand_col)
         df_indices = [df[ix] for ix in index]
         df2 = pd.DataFrame(df[expand_col].tolist(), index=df_indices) \
                 .stack() \
                 .reset_index() \
                 .drop(columns=f'level_{len(index)}')
         return df.drop(columns=expand_col) \
-                .merge(df2.drop(columns=0) \
-                       .join(df2[0].apply(pd.Series), rsuffix=f'_{expand_col}'),
-                 on=index)
+                 .merge(df2.drop(columns=0) \
+                           .join(df2[0].apply(pd.Series),
+                              rsuffix=f'_{expand_col_single}'),
+                  on=index)
 
     @staticmethod
     def expand_df_dict_column(df, expand_col):
         """Expand dataframe on expand_col"""
         return df.drop(columns=expand_col) \
-                 .join(df[expand_col].apply(pd.Series),
+                 .join(df[expand_col].apply(pd.Series).add_prefix(f'{expand_col}_'),
                        rsuffix=f'_{expand_col}')
 
     @staticmethod

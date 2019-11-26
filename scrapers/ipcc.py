@@ -88,17 +88,23 @@ people = pd.DataFrame.from_dict(ipcc.people, orient='index')
             })
         return authors
 
-
-
     def flat_report_dataframe(self):
         """Returns self.reports as a fully flattened dataframe"""
         df = self.as_df(self.reports)
         # expand chapters
         df = self.expand_df_list_column(df, 'chapters', 'id')
         # expand authors
-        df = self.expand_df_list_column(df, 'authors', ['id','id_chapters'])
+        df = self.expand_df_list_column(df, 'authors', ['id','id_chapter'])
         # expand person fields
-        return self.expand_df_dict_column(df, 'person')
+        df = self.expand_df_dict_column(df, 'person')
+        # the expand functions should do this naming on their own
+        df = df.rename(columns={'id' : 'report_id',
+                                'name' : 'report_name',
+                                'id_chapter' : 'chapter_id',
+                                'description' : 'chapter_description',
+                                'index' : 'author_index',
+                                'role' : 'author_role'})
+        return df
 
     def save_report_json(self):
         """scrape and ipcc_report_list.json file"""
