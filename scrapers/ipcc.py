@@ -1,12 +1,20 @@
 """ipcc scraper"""
 import re
+import pandas as pd
 from scraper import Scraper
 
 class IPCC(Scraper):
+    """
+from scrapers.ipcc import IPCC
+ipcc = IPCC()
+
+people = pd.DataFrame.from_dict(ipcc.people, orient='index')
+    """
     def __init__(self):
         super().__init__()
         self.reports_filename = 'ipcc_report_list'
-        self.reports = []
+        self._reports = []
+        self._people = {}
 
     def get_report_ids(self):
         """load report_ids from site."""
@@ -81,13 +89,61 @@ class IPCC(Scraper):
             })
         return authors
 
+    def flat_report_dataframe(self):
+        """Returns self.reports as a fully flattened dataframe"""
+        df = pd.DataFrame(self.reports)
+        # expand chapters
+        df2 = pd.DataFrame(df.chapters.tolist(), index=df.id) \
+                .stack() \
+                .reset_index() \
+                .drop(columns='level_1')
+        # merge in expanded chapters
+        df3 = df.drop(columns='chapters') \
+                .merge(df2.drop(columns=0) \
+                       .join(df2[0].apply(pd.Series), rsuffix='_chapter'),
+                 on='id')
+        # expand authors
+        df4 = pd.DataFrame(df3.authors.tolist(),
+                           index=[df3.id, df3.id_chapter]
+                           ).stack() \
+                            .reset_index() \
+                            .drop(columns='level_2')
+        # merge in authors
+        df5 = df3.drop(
+                       columns='authors'
+                      ).merge(
+                              df4.drop(columns=0).join(df4[0].apply(pd.Series),
+                                                       rsuffix='_author'),
+                              on=['id','id_chapter'])
+        # expand person fields
+        return df5.drop(columns='person') \
+                  .join(df5.person.apply(pd.Series),
+                        rsuffix='_person')
+
     def save_report_json(self):
         """scrape and ipcc_report_list.json file"""
         reports = self.get_reports()
         self.save_to_json(self.reports_filename, reports)
 
+    @property
+    def reports(self):
+        """IPCC reports with chapters and authors"""
+        if not self._reports:
+            self.load_reports()
+        return self._reports
+
+    @property
+    def people(self):
+        """IPCC author list"""
+        if not self._people:
+            self._people = { author['person']['id'] : author['person'].copy()
+                for report in self.reports
+                    for chapter in report['chapters']
+                        for author in chapter['authors'] }
+        return self._people
+
     def load_reports(self, reload=False):
         """looks for saved json file unless reload is true, then scrapes from IPCC"""
         if reload or (not self.json_file_exists(self.reports_filename)):
             self.save_report_json()
-        self.reports = self.json_load(self.reports_filename)
+        self._reports = self.json_load(self.reports_filename)
